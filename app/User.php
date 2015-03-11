@@ -1,4 +1,4 @@
-<?php namespace App;
+<?php namespace Portfolio;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;

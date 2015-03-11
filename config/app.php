@@ -26,7 +26,7 @@ return [
 	|
 	*/
 
-	'url' => 'http://localhost',
+	'url' => 'http://v10.portfolio.site',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -39,7 +39,7 @@ return [
 	|
 	*/
 
-	'timezone' => 'UTC',
+	'timezone' => 'Europe/London',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -78,7 +78,7 @@ return [
 	|
 	*/
 
-	'key' => env('APP_KEY', 'SomeRandomString'),
+	'key' => env('APP_KEY', 'Tl3sHsPVXy4x0lfg387Sgn6SxsjudgrZ'),
 
 	'cipher' => MCRYPT_RIJNDAEL_128,
 
@@ -139,11 +139,11 @@ return [
 		/*
 		 * Application Service Providers...
 		 */
-		'App\Providers\AppServiceProvider',
-		'App\Providers\BusServiceProvider',
-		'App\Providers\ConfigServiceProvider',
-		'App\Providers\EventServiceProvider',
-		'App\Providers\RouteServiceProvider',
+		'Portfolio\Providers\AppServiceProvider',
+		'Portfolio\Providers\BusServiceProvider',
+		'Portfolio\Providers\ConfigServiceProvider',
+		'Portfolio\Providers\EventServiceProvider',
+		'Portfolio\Providers\RouteServiceProvider',
 
 	],
 
