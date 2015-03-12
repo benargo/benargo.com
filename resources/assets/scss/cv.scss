@@ -1,0 +1,421 @@
+// Import bootstrap and glyphicons
+@import 'bootstrap';
+@import 'glyphicons';
+
+html, body {
+  height: 100%;
+
+  .wrapper {
+    position: relative;
+    padding-top: 51px;
+    height: 100%;
+    max-height: 1944px;
+  }
+
+  section.introduction {
+    position: relative;
+    min-height: 100%;
+    
+    background-color: #BAC0BC;
+    background-image: url('../images/fgw.jpg');
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .container {
+      padding: 40px 0 20px;
+      color: #fff;
+      text-align: center;
+
+      h1 {
+        margin-bottom: 12px;
+
+        span {
+          padding: 5px 5px 9px;
+          background-color: rgba(0,0,0,0.5);
+          border: solid 1px transparent;
+          -webkit-border-radius: 5px 5px 0 0;
+          border-radius: 5px 5px 0 0;
+        }
+      }
+
+      p.lead {
+        padding: 5px;
+        background-color: rgba(0,0,0,0.5);
+        border: solid 1px transparent;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        text-align: left;
+      }
+
+      a[href="#portfolio"] {
+        color: #fff;
+        padding: 2px;
+        background-color: rgba(0,0,0,0.5);
+        border: solid 1px transparent;
+        border-radius: 2px;
+        -webkit-border-radius: 2px;
+      }
+
+      a.social {
+        background-color: rgba(0,0,0,0.5);
+      }
+    }
+
+    div.scroll-down {
+
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
+
+      margin: 0 auto;
+      text-align: center;
+
+
+      a {
+        -moz-transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+      }
+    }
+
+    small.photo-credit {
+      position: absolute;
+      bottom: 5px;
+      right: 5px;
+
+      a {
+        color: #333;
+      }
+    }
+  }
+
+  section.portfolio {
+    min-height: 100%;
+
+    a[name="portfolio"] {
+      padding-top: 31px;
+    }
+
+    .section-link {
+      padding-top: 20px;
+    }
+
+    .top-link {
+      clear: both;
+      text-align: right;
+    }
+
+    .container {
+      padding-top: 20px;
+
+      .row {
+        height: auto;
+
+        .tile {
+          margin-bottom: 18px;
+
+          background-repeat: no-repeat;
+          background-position: top center;
+          background-size: cover;
+
+          border: solid 1px #B0BABF;
+
+          &.tile-small {
+            height: 180px;
+          }
+
+          &.tile-medium {
+            height: 378px;
+          }
+
+          &.young-bristol {
+            background-image: url('../images/young-bristol-thumb.jpg');
+          }
+
+          &.crimson-pink {
+            background-image: url('../images/crimson-pink-thumb.jpg');
+          }
+
+          &.police-statistics {
+            background-image: url('../images/police-statistics-thumb.jpg');
+          }
+
+          &.hop-skip-jump {
+            background-image: url('../images/hop-skip-jump-thumb.jpg');
+          }
+
+          &.uwe-life {
+            background-image: url('../images/uwe-life-thumb.jpg');
+          }
+
+          &.sam-boyd {
+            background-image: url('../images/sam-boyd-thumb.jpg');
+          }
+
+          &.discover-crete {
+            background-image: url('../images/discover-crete-thumb.jpg');
+          }
+
+          &.twin-towns {
+            background-image: url('../images/twin-towns-thumb.jpg');
+          }
+
+          &.web-air {
+            background-image: url('../images/web-air-thumb.jpg');
+          }
+
+          &.organica {
+            background-image: url('../images/organica-thumb.jpg');
+          }
+
+          &.les-lezards {
+            background-image: url('../images/les-lezards-thumb.jpg');
+          }
+
+          a {
+            display: block;
+            height: inherit;
+            position: relative;
+
+            h3 {
+              position: absolute;
+              bottom: 20px;
+              margin: 0 0 0 -1px;
+              padding: 4px 9px 4px 14px;
+              background-color: #ffffff;
+              border: solid 1px #B0BABF;
+              border-left-color: #ffffff;
+              -webkit-border-radius: 0 10px 10px 0;
+              border-radius: 0 10px 10px 0;
+            }
+          }
+        }
+
+        header.tile {
+          border: none;
+
+          a {
+            display: inline;
+          }
+
+          h2 {
+            color: #B0BABF;
+          }
+        }
+      }
+    }
+  }
+
+  section.education {
+    min-height: 100%;
+    padding-top: 20px;
+    background-color: #85c0ec;
+    background-image: url('../images/uwe-background.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    @media screen and (max-device-width: 1024px) {
+      background-image: url('../images/uwe-background.jpg'), url('../images/uwe-background-tile.jpg');
+      background-position: bottom center, top center;
+      background-repeat: no-repeat, repeat-y;
+      background-attachment: scroll;
+      -webkit-background-size: auto;
+      -moz-background-size: auto;
+      -o-background-size: auto;
+      background-size: auto;
+    }
+
+    a[name="education"] {
+      padding-top: 31px;
+    }
+
+    .container {
+      position: relative;
+      color: #fff;
+
+      aside {
+        position: absolute;
+        top: 20px;
+        right: 0px;
+      }
+
+      tr {
+        border-bottom: dotted 1px #fff;
+        
+        td{
+          color: #000;
+          background-color: rgba(255, 255, 255, 0.7);
+        }
+      }
+
+      div.row.certificates {
+        div.thumbnail {
+          background-color: rgba(255, 255, 255, 0.7);
+
+          small {
+            color: #000;
+          }
+        }
+      }
+
+      div.extra-curricular 
+      {
+        box-shadow: 0 1px 2px 1px rgba(0,0,0,0.075);
+        color: #000;
+
+        .caption {
+          padding-top: 0;
+        }
+
+        ul {
+          padding-left: 15px;
+        }
+      }
+      
+      .top-link {
+        clear: both;
+        text-align: right;
+      }
+
+    }
+  }
+
+  section.warcraft {
+    min-height: 100%;
+    padding-top: 20px;
+    background-image: url('../images/warlords-background.jpg');
+    background-size: auto;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+
+    a[name="warcraft"] {
+      padding-top: 31px;
+    }
+
+    .container {
+      position: relative;
+      background: rgba(51, 51, 51, 0.3);
+      border-color: transparent;
+      border-radius: 3px;
+      -webkit-border-radius: 3px;
+
+      h2 {
+        float: left;
+      }
+
+      aside {
+        float: right;
+      }
+
+      p.lead {
+        clear: left;
+      }
+
+      h3 .achievement-points {
+        display: inline-block;
+        float: right;
+        font-weight: normal;
+
+        .points {
+          color: #ffa400;
+        }
+      }
+
+      div.arrow {
+        display: inline-block;
+        height: 100%;
+        min-height: 119px;
+        color: #fff;
+
+      }
+
+      div.character-tiles {
+        a.character {
+          display: inline-block;
+          float: left;
+          white-space: nowrap;
+          text-align: center;
+          padding: 5px;
+          margin: 2px;
+          color: #fff;
+
+          border: solid 1px transparent;
+          border-radius: 3px;
+          -webkit-border-radius: 3px;
+
+          &:hover {
+            background: rgba(255, 255, 255, 0.3);
+            border-color: #fff;
+            
+            h4 {
+              text-decoration: none;
+            }
+          }
+
+          h4 {
+            font-size: 1.0em;
+            text-decoration: none;
+          }
+        }
+      }
+
+      .web-projects .tile {
+        margin-bottom: 18px;
+
+        background-image: url('/images/image-placeholder.jpg');
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+
+        -webkit-box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.3);
+        box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.3);
+
+        border: solid 0px transparent;
+
+        &.tile-small {
+          height: 180px;
+        }
+
+        &.tile-medium {
+          height: 378px;
+        }
+
+        a {
+          display: block;
+          height: inherit;
+          position: relative;
+
+          h3 {
+            position: absolute;
+            bottom: 20px;
+
+            margin: 0 0 0 -1px;
+            padding: 4px 9px 4px 14px;
+
+            background-color: rgba(0,0,0,0.2);
+
+            -webkit-box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.2);
+            box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.2);
+
+            border: solid 1px transparent;
+            border-radius: 0 10px 10px 0;
+            -webkit-border-radius: 0 10px 10px 0;
+            
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
