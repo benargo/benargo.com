@@ -373,11 +373,10 @@
             <li><a href="{{ url('uwe/community-and-welfare') }}">Community &amp; Welfare Committee</a> <small>(2013-2014)</small></li>
             <li><a href="{{ url('uwe/media-and-it-technician') }}">Media &amp; IT Technician</a> for UWE Students' Union <small>(2013-present)</small></li>
           </ul>
-        </div>
+        </div>{{-- /.col --}}
 
         {{-- Clear the SM cols if their content doesn't match in height --}}
         <div class="clearfix visible-sm"></div>
-
       </div>{{-- /.row --}}
       <p class="top-link"><a href="#top"><span class="glyphicons glyphicons-circle-arrow-top white"></span> back to top</a></p>
     </div>{{-- /.container --}}
