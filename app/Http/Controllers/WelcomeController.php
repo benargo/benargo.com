@@ -30,7 +30,7 @@ class WelcomeController extends Controller {
 	 */
 	public function index()
 	{
-		return view('shared.master')
+		return view('shared.master', ['css' => array('/css/cv.css')])
 			->nest('content', 'pages.cv');
 	}
 

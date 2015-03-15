@@ -10,7 +10,11 @@
   <title>{{ $title or 'Ben Argo - Web Developer' }}</title>
 
   {{-- Custom styles for this template --}}
-  <link href="{{ asset('/css/cv.css') }}" rel="stylesheet">
+  @if (isset($css) && is_array($css))
+    @foreach ($css as $url)
+    <link rel="stylesheet" href="{{ asset($url) }}">
+    @endforeach 
+  @endif
 
   {{-- Optional theme --}}
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
@@ -20,6 +24,11 @@
   <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
   <script src="{{ asset('/scripts/lazyload.js') }}"></script>
+  @if (isset($scripts) && is_array($scripts))
+    @foreach ($scripts as $url)
+    <script src="{{ asset($url) }}"></script>
+    @endforeach
+  @endif
 
   {{-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries --}}
   <!--[if lt IE 9]>
