@@ -70,7 +70,7 @@
           @else
             <li><a href="{{ url('/#portfolio') }}">Portfolio</a></li>
             <li><a href="{{ url('/#education') }}">Education</a></li>
-            <li class="dropdown">
+            {{--<li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown">Interests <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="{{ url('/#warcraft') }}">Warcraft</a></li>
@@ -79,7 +79,7 @@
               </ul>
             </li>
             <li><a href="{{ url('/#labs') }}">Labs</a></li>
-            <li><a href="{{ url('/#contact') }}">Contact Me</a></li>
+            <li><a href="{{ url('/#contact') }}">Contact Me</a></li>--}}
           @endif
         </ul>
       </div>{{-- /.navbar-collapse --}}
@@ -108,7 +108,7 @@
             <p class="text-center"><a href="http://github.com/benargo"><span class="social social-github x2"></span><br>Github</a></p>
           </div>{{-- /.col --}}
           <div class="col-sm-12 col-md-1">
-            <p class="text-center"><a href="http://dribbble.com/ben_argo"><span class="social social-dribbble x2"></span><br>Dribbble</a></p>
+            <p class="text-center"><a href="http://dribbble.com/benargo"><span class="social social-dribbble x2"></span><br>Dribbble</a></p>
           </div>{{-- /.col --}}
         </div>{{-- /.row --}}
         <div class="row copyright">
