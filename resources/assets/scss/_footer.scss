@@ -1,0 +1,27 @@
+footer {
+  background-color: #f0f0f0;
+  padding-top: 20px;
+
+  h3 {
+    margin-top: 0;
+  }
+
+  p.email {
+    vertical-align: middle;
+    line-height: 14px;
+    padding-left: 18px;
+
+    .social.social-e-mail {
+      margin-left: -18px;
+    }
+  }
+
+  address {
+    vertical-align: middle;
+    padding-left: 18px;
+
+    .glyphicons.glyphicons-envelope {
+      margin-left: -18px;
+    }
+  }
+}

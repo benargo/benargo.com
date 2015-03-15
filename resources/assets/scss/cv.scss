@@ -1,6 +1,7 @@
 // Import bootstrap and glyphicons
 @import 'bootstrap';
 @import 'glyphicons';
+@import 'footer';
 
 html, body {
   height: 100%;
@@ -104,8 +105,12 @@ html, body {
     }
 
     .top-link {
-      clear: both;
-      text-align: right;
+
+        clear: both;
+        text-align: right;
+        vertical-align: middle;
+        line-height: 14px;
+
     }
 
     .container {
@@ -247,30 +252,8 @@ html, body {
         right: 0px;
       }
 
-      tr {
-        border-bottom: dotted 1px #fff;
-        
-        td{
-          color: #000;
-          background-color: rgba(255, 255, 255, 0.7);
-        }
-      }
-
-      div.row.certificates {
-        div.thumbnail {
-          background-color: rgba(255, 255, 255, 0.7);
-
-          small {
-            color: #000;
-          }
-        }
-      }
-
-      div.extra-curricular 
+      div.thumbnail
       {
-        box-shadow: 0 1px 2px 1px rgba(0,0,0,0.075);
-        color: #000;
-
         .caption {
           padding-top: 0;
         }
@@ -279,12 +262,22 @@ html, body {
           padding-left: 15px;
         }
       }
+
+      div.extra-curricular a {
+        color: #fff;
+        font-weight: bold;
+      }
       
       .top-link {
         clear: both;
         text-align: right;
-      }
+        vertical-align: middle;
+        line-height: 14px;
 
+        a {
+          color: #fff;
+        }
+      }
     }
   }
 
@@ -417,5 +410,7 @@ html, body {
       }
     }
   }
+
+
 }
 

@@ -168,7 +168,7 @@
         </div>
 
       </div>{{-- /.row --}}
-      <p class="top-link"><a href="{{ url('/#top') }}">Back to top</a></p>
+      <p class="top-link"><a href="{{ url('/#top') }}"><span class="glyphicons glyphicons-circle-arrow-top white"></span> back to top</a></p>
     </div>{{-- /.container --}}
   </section>{{-- /.portfolio --}}
   
@@ -363,26 +363,22 @@
         </div>{{-- /.col --}}
 
         <div class="col-sm-4 col-md-12 col-lg-9 extra-curricular">
-          <div class="thumbnail">
-            <div class="caption">
-              <h3>Extracurricular Activities</h3>
-              <ul>
-                <li><a href="{{ url('/uwe/student-rep') }}">Student Representative</a> <small>(2010-2011, 2013-2014)</small></li>
-                <li>Founding Treasurer, <a href="{{ url('uwe/video-gaming-society') }}">UWE Video Gaming Society</a> <small>(2010-2012)</small></li>
-                <li><a href="{{ url('uwe/peer-assisted-learning') }}">Peer Assisted Learning Leader</a> <small>(2011-2012)</small></li>
-                <li>Industrial Placement with <a href="http://www.message.co.uk" rel="nofollow">Message Digital</a> <small>(2012-2013)</small></li>
-                <li><a href="{{ url('uwe/media-and-it-technician') }}">Media &amp; IT Technician</a> for UWE Students' Union <small>(2013-present)</small></li>
-                <li><a href="{{ url('uwe/halls-rep') }}">Halls Representative</a> <small>(2013-2014)</small></li>
-                <li><a href="{{ url('uwe/community-and-welfare') }}">Community &amp; Welfare Committee</a> <small>(2013-2014)</small></li>
-              </ul>
-            </div>
-          </div>
+          <h3>Extracurricular Activities</h3>
+          <ul class="list-unstyled">
+            <li><a href="{{ url('/uwe/student-rep') }}">Student Representative</a> <small>(2010-2011, 2013-2014)</small></li>
+            <li>Founding Treasurer, <a href="{{ url('uwe/video-gaming-society') }}">UWE Video Gaming Society</a> <small>(2010-2012)</small></li>
+            <li><a href="{{ url('uwe/peer-assisted-learning') }}">Peer Assisted Learning Leader</a> <small>(2011-2012)</small></li>
+            <li>Industrial Placement with <a href="http://www.message.co.uk" rel="nofollow">Message Digital</a> <small>(2012-2013)</small></li>
+            <li><a href="{{ url('uwe/halls-rep') }}">Halls Representative</a> <small>(2013-2014)</small></li>
+            <li><a href="{{ url('uwe/community-and-welfare') }}">Community &amp; Welfare Committee</a> <small>(2013-2014)</small></li>
+            <li><a href="{{ url('uwe/media-and-it-technician') }}">Media &amp; IT Technician</a> for UWE Students' Union <small>(2013-present)</small></li>
+          </ul>
         </div>
 
         {{-- Clear the SM cols if their content doesn't match in height --}}
         <div class="clearfix visible-sm"></div>
 
       </div>{{-- /.row --}}
-      <p class="top-link"><a href="#top">Back to top</a> - <a href="https://www.flickr.com/photos/bristoluwe/4013748019/" target="_blank">photo credit</a></p>
+      <p class="top-link"><a href="#top"><span class="glyphicons glyphicons-circle-arrow-top white"></span> back to top</a></p>
     </div>{{-- /.container --}}
   </section>{{-- /.education --}}

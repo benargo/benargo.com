@@ -93,112 +93,29 @@
     <a name="footer"></a>
     <footer role="footer">
       <div class="container">
-        <div class="tab-container" role="tabpanel">
-
-          {{-- Nav tabs --}}
-          <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation" class="active"><a aria-controls="portfolio" role="tab" data-toggle="tab">Portfolio</a></li>
-            <li role="presentation"><a aria-controls="education" role="tab" data-toggle="tab">Education</a></li>
-            <li role="presentation"><a aria-controls="warcraft" role="tab" data-toggle="tab">Warcraft</a></li>
-          </ul>
-
-          {{-- Tab panes --}}
-          <div class="tab-content">
-            <div role="tabpanel" class="tab-pane active" id="portfolio">
-              <h2>Portfolio</h2>
-              <div class="row">
-                <nav>
-                  <div class="col-xs-12 col-md-4">
-                    <ul class="square">
-                      <li><a href="{{ url('/portfolio/young-bristol') }}">Young Bristol</a></li>
-                      <li><a href="{{ url('/portfolio/crimson-pink') }}">Crimson Pink</a></li>
-                      <li><a href="{{ url('/portfolio/hair-today-gone-tomorrow') }}">Hair Today, Gone Tomorrow</a></li>
-                      <li><a href="{{ url('/portfolio/police-statistics') }}">Police &amp; Crime Statistics</a></li>
-                      <li><a href="{{ url('/portfolio/uwe-life') }}">UWE Life</a></li>
-                    </ul>
-                  </div>{{-- /.col --}}
-                  <div class="col-xs-12 col-md-4">
-                    <ul class="square">
-                      <li><a href="{{ url('/portfolio/hop-skip-jump') }}">Hop, Skip &amp; Jump</a></li>
-                      <li><a href="{{ url('/portfolio/sam-boyd') }}">Sam Boyd</a></li>
-                      <li><a href="{{ url('/portfolio/discover-crete') }}">Discover Crete</a></li>
-                      <li><a href="{{ url('/portfolio/twin-towns') }}">Twin Towns</a></li>
-                      <li><a href="{{ url('/portfolio/organica') }}">Organica</a></li>
-                    </ul>
-                  </div>{{-- /.col --}}
-                  <div class="col-xs-12 col-md-4">
-                    <ul class="square">
-                      <li><a href="{{ url('/portfolio/web-air') }}">Web Air</a></li>
-                      <li><a href="{{ url('/portfolio/les-lezards') }}">Les Lézards</a></li>
-                      <li><a href="{{ url('/portfolio/bowie') }}">Bowie</a></li>
-                    </ul>
-                  </div>{{-- /.col --}}
-                </nav>
-              </div>{{-- /.row --}}  
-            </div>{{-- /.tab-pane --}}
-
-            <div role="tabpanel" class="tab-pane" id="education">
-              <h2>Education</h2>
-              <div class="row">
-                <nav>
-                  <div class="col-xs-12 col-md-4">
-                    <ul class="square">
-                      <li><a href="{{ url('/uwe/futures-award') }}">Futures Award</a></li>
-                      <li><a href="{{ url('/uwe/gdp') }}">Graduate Development Programme</a></li>
-                      <li><a href="{{ url('/uwe/consultancy-project') }}">Consultancy Project</a></li>
-                    </ul>
-                  </div>{{-- /.col --}}
-                  <div class="col-xs-12 col-md-4">
-                    <ul class="square">
-                      <li><a href="{{ url('/uwe/peer-assisted-learning') }}">Peer Assisted Learning</a></li>
-                      <li><a href="{{ url('/uwe/student-rep') }}">Student Rep</a></li>
-                      <li><a href="{{ url('/uwe/halls-rep') }}">Halls Rep</a></li>
-                    </ul>
-                  </div>{{-- /.col --}}
-                  <div class="col-xs-12 col-md-4">
-                    <ul class="square">
-                      <li><a href="{{ url('/uwe/video-gaming-society') }}">Video Gaming Society</a></li>
-                      <li><a href="{{ url('/uwe/media-and-it-technician') }}">Media &amp; IT Technician</a></li>
-                      <li><a href="{{ url('/uwe/community-and-welfare') }}">Community &amp; Welfare Committee</a></li>
-                    </ul>
-                  </div>{{-- /.col --}}
-                </nav>
-              </div>{{-- /.row--}}
-            </div>{{-- /.tab-pane --}}
-
-            <div role="tabpanel" class="tab-pane" id="warcraft">
-              <h2>Warcraft</h2>
-              <div class="row">
-                <nav>
-                  <div class="col-xs-12 col-md-6">
-                    <h3>Web Projects</h3>
-                    <ul class="square">
-                      <li><a href="{{ url('/portfolio/uguilds') }}">uGuilds</a></li>
-                      <li><a href="{{ url('/portfolio/premade-portal') }}">Premade Portal</a></li>
-                      <li><a href="{{ url('/portfolio/arenaseeking') }}">ArenaSeeking</a></li>
-                      <li><a href="{{ url('/portfolio/professional-grand-master') }}">Professional Grand Master</a></li>
-                    </ul>
-                  </div>{{-- /.col --}}
-                  <div class="col-xs-12 col-md-6">
-                    <h3>Guilds</h3>
-                    <ul class="square">
-                      <li><a href="{{ url('/warcraft/guild/the-road-less-travelled') }}">The Road Less Travelled</a></li>
-                      <li><a href="{{ url('/warcraft/guild/ashkandari') }}">Ashkandari</a></li>
-                      <li><a href="{{ url('/warcraft/guild/premade') }}">Premade</a></li>
-                      <li><a href="{{ url('/warcraft/guild/straight-outta-hillsbrad') }}">Straight Outta Hillsbrad</a></li>
-                      <li><a href="{{ url('/warcraft/guild/deathwishes') }}">Deathwishes</a></li>
-                    </ul>
-                  </div>{{-- /.col --}}
-                </nav>
-              </div>{{-- /.row --}}
-            </div>{{-- /.tab-pane --}}
-          </div>{{-- /.tab-content --}}
-        </div>{{-- /role=tabpanel --}}
-        <div class="row clearfix">
-          <div class="col-xs-12">
-            <p role="copyright" class="text-center">Copyright &copy; {{ date('Y') }} Ben Argo. <a href="{{ url('#credits') }}" id="website-credits">Credits</a> / <a href="{{ url('/privacy') }}" id="privacy-policy">Privacy</a></p>
-          </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-8">
+            <h3>Get in touch</h3>
+            <p class="email"><a href="mailto:ben@benargo.com"><span class="social social-e-mail"></span> ben&commat;benargo.com</a></p>
+          </div>{{-- /.col --}}
+          <div class="col-sm-12 col-md-1">
+            <p class="text-center"><a href="http://twitter.com/ben_argo"><span class="social social-twitter x2"></span><br>Twitter</a></p>
+          </div>{{-- /.col --}}
+          <div class="col-sm-12 col-md-1">
+            <p class="text-center"><a href="https://www.linkedin.com/in/benargo"><span class="social social-linked-in x2"></span><br>LinkedIn</a></p>
+          </div>{{-- /.col --}}
+          <div class="col-sm-12 col-md-1">
+            <p class="text-center"><a href="http://github.com/benargo"><span class="social social-github x2"></span><br>Github</a></p>
+          </div>{{-- /.col --}}
+          <div class="col-sm-12 col-md-1">
+            <p class="text-center"><a href="http://dribbble.com/ben_argo"><span class="social social-dribbble x2"></span><br>Dribbble</a></p>
+          </div>{{-- /.col --}}
         </div>{{-- /.row --}}
+        <div class="row copyright">
+          <div class="col-sm-12">
+            <p><small rel="copyright">Copyright &copy; {{ date('Y') }} Ben Argo. Powered by Laravel and hosted with pride by <a href="https://www.digitalocean.com/?refcode=016db43073a4">DigitalOcean</a>.</small></p>
+          </div>{{-- /.col --}}
+        </div>
       </div>{{-- /.container --}}
     </footer>
 
