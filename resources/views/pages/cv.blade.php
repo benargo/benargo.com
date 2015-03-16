@@ -8,15 +8,10 @@
         experimenting with interesting web applications for World of Warcraft, campaigning for better mental health services, 
         and exploring the country by train.</p>
         <p><a href="#portfolio">Scroll down to see more.</a></p>
-        <p class="social-bar">
-          <a href="http://twitter.com/ben_argo" class="social white twitter"></a>
-          <a href="https://google.com/+BenArgo" class="social white google_plus"></a>
-          <a href="https://github.com/benargo" class="social white github"></a>
-        </p>
       </div>
     </div>{{-- /.container --}}
-    <div class="scroll-down"><a href="{{ url('/#portfolio') }}" class="glyphicons white chevron-right"></a></div>
-    <small class="photo-credit">Photo courtesy of <a href="https://www.flickr.com/photos/marauder43366/5330200133/">Nick</a></small>
+    <div class="scroll-down"><a href="{{ url('/#portfolio') }}" class="glyphicons white glyphicons-chevron-right"></a></div>
+    <small class="photo-credit"><a href="https://www.flickr.com/photos/marauder43366/5330200133/">Photo credit</a></small>
   </section>{{-- /.introduction --}}
   
   {{-- PORTFOLIO --}}

@@ -24,6 +24,7 @@
   <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
   <script src="{{ asset('/scripts/lazyload.js') }}"></script>
+  <script src="{{ asset('/scripts/smooth_scroll.js') }}"></script>
   @if (isset($scripts) && is_array($scripts))
     @foreach ($scripts as $url)
     <script src="{{ asset($url) }}"></script>
