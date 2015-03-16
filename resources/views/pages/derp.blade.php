@@ -8,6 +8,6 @@
 
 <div class="container">
   <p class="text-center">
-    <img src="http://www.mesdiscussions.net/wp-content/uploads/2014/10/410.png" alt="410 Gone" /> 
+    <img src="{{ asset('/images/410.png') }}" alt="410 Gone" /> 
   </p>
 </div>
