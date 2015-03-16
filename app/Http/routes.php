@@ -13,6 +13,10 @@
 
 Route::get('/', 'WelcomeController@index');
 
+/** Derp button */
+Route::get('/derp', 'DerpController@index');
+Route::get('/derp/ajax', 'DerpController@index');
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
