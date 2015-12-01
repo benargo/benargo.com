@@ -39,9 +39,9 @@
 
         <div class="col-xs-12 col-sm-8">
           {{-- Young Bristol --}}
-          <div class="tile tile-medium young-bristol">
+          <a href="http://youngbristol.com/" class="tile tile-medium young-bristol">
             <h3 class="title">Young Bristol</h3>
-          </div>
+          </a>
         </div>
 
       </div>{{-- /.row --}}
@@ -49,9 +49,9 @@
 
         <div class="col-xs-12 col-sm-4">
           {{-- Crimson Pink --}}
-          <div class="tile tile-small crimson-pink">
+          <a href="https://crimsonpink.co.uk" class="tile tile-small crimson-pink">
             <h3 class="title">Crimson Pink</h3>
-          </div>
+          </a>
         </div>
 
         <div class="col-xs-12 col-sm-4">
@@ -73,9 +73,9 @@
 
         {{-- UWE Life --}}
         <div class="col-xs-12 col-sm-8">
-          <div class="tile tile-medium uwe-life">
+          <a href="http://interactiondesign.benargo.com/" class="tile tile-medium uwe-life">
             <h3 class="title">UWE Life</h3>
-          </div>
+          </a>
         </div>
 
         <div class="col-xs-12 col-sm-4">
@@ -119,16 +119,16 @@
 
         <div class="col-xs-12 col-sm-8">
           {{-- Webair --}}
-          <div class="tile tile-medium web-air">
+          <a href="http://flywebair.com/" class="tile tile-medium web-air">
             <h3 class="title">Web Air</h3>
-          </div>
+          </a>
         </div>
 
         <div class="col-xs-12 col-sm-4">
           {{-- Les Lézards --}}
-          <div class="tile tile-small les-lezards">
+          <a href="http://leslezards.com/" class="tile tile-small les-lezards">
             <h3 class="title">Les Lézards</h3>
-          </div>
+          </a>
 
           {{-- Bowie --}}
           <div class="tile tile-small bowie">
@@ -325,13 +325,13 @@
         <div class="col-sm-4 col-md-12 col-lg-9 extra-curricular">
           <h3>Extracurricular Activities</h3>
           <ul class="list-unstyled">
-            <li>Student RepresentativE <small>(2010-2011, 2013-2014)</small></li>
+            <li>Student Representative <small>(2010-2011, 2013-2014)</small></li>
             <li>Founding Treasurer, UWE Video Gaming Society <small>(2010-2012)</small></li>
             <li>Peer Assisted Learning Leader <small>(2011-2012)</small></li>
             <li>Industrial Placement with Message Digital <small>(2012-2013)</small></li>
             <li>Halls Representative <small>(2013-2014)</small></li>
             <li>Community &amp; Welfare Committee <small>(2013-2014)</small></li>
-            <li>Media &amp; IT Technician for UWE Students' Union <small>(2013-present)</small></li>
+            <li>Media &amp; IT Technician with the Students' Union at UWE <small>(2013-2015)</small></li>
           </ul>
         </div>{{-- /.col --}}
 
