@@ -22,6 +22,11 @@ Route::controllers([
 	'password' => 'Auth\PasswordController',
 ]);
 
+// Temporary
+Route::get('/vote', function() {
+	return redirect('https://www.facebook.com/groups/1422789254626118/permalink/1767484893489884/', 302);
+});
+
 /*
 |--------------------------------------------------------------------------
 | Old URLs
