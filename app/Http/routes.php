@@ -22,11 +22,6 @@ Route::controllers([
 	'password' => 'Auth\PasswordController',
 ]);
 
-// Temporary
-Route::get('/vote', function() {
-	return redirect('https://www.facebook.com/groups/1422789254626118/permalink/1767484893489884/', 302);
-});
-
 /*
 |--------------------------------------------------------------------------
 | Old URLs
@@ -37,6 +32,13 @@ Route::get('/vote', function() {
 | status codes for them.
 |
 */
+Route::get('/contact', function() {
+	return redirect('https://benargo.com/#footer', 302);
+});
+
+Route::get('/vote', function() {
+	return abort(500);
+});
 
 /*
 |--------------------------------------------------------------------------
