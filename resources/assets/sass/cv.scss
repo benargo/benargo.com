@@ -1,0 +1,374 @@
+@import 'variables';
+
+html, body {
+    height: 100%;
+
+    .wrapper {
+        height: 100%;
+        max-height: 1944px;
+        padding-top: 51px;
+        position: relative;
+    }
+    section.introduction {
+        background-color: #BAC0BC;
+        background-image: url('../../../public/images/gwr.jpg');
+        background-size: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 100%;
+        position: relative;
+
+        .container {
+            color: #fff;
+            padding: 40px 0 20px;
+            text-align: center;
+
+            h1 {
+                margin-bottom: 12px;
+
+                span {
+                    background-color: rgba(0,0,0,0.5);
+                    border: solid 1px transparent;
+                    -webkit-border-radius: 5px 5px 0 0;
+                    border-radius: 5px 5px 0 0;
+                    padding: 5px 5px 10px;
+                }
+            }
+            p.lead {
+                background-color: rgba(0,0,0,0.5);
+                border: solid 1px transparent;
+                border-radius: 5px;
+                -webkit-border-radius: 5px;
+                padding: 5px;
+                text-align: left;
+
+                & > a {
+                    color: #ffffff;
+                }
+            }
+            a[href$="#portfolio"] {
+                background-color: rgba(0,0,0,0.5);
+                border: solid 1px transparent;
+                border-radius: 2px;
+                -webkit-border-radius: 2px;
+                color: #fff;
+                padding: 2px;
+            }
+            a.social {
+                background-color: rgba(0,0,0,0.5);
+            }
+        }
+        div.scroll-down {
+            bottom: 10px;
+            margin: 0 auto;
+            position: absolute;
+            text-align: center;
+            width: 100%;
+
+            i {
+                color: #fff;
+                font-size: 2em;
+                -moz-transform: rotate(90deg);
+                -webkit-transform: rotate(90deg);
+                -o-transform: rotate(90deg);
+                -ms-transform: rotate(90deg);
+                transform: rotate(90deg);
+            }
+        }
+        .photo-credit {
+            bottom: 5px;
+            position: absolute;
+            right: 5px;
+
+            a {
+                color: #333;
+            }
+        }
+    }
+    section.portfolio {
+        min-height: 100%;
+
+        a[name="portfolio"] {
+            padding-top: 31px;
+        }
+        .section-link {
+            padding-top: 20px;
+        }
+        .top-link {
+            clear: both;
+            line-height: 14px;
+            text-align: right;
+            vertical-align: middle;
+        }
+        .container {
+            padding-top: 20px;
+
+            .row {
+                height: auto;
+
+                .tile {
+                    background-repeat: no-repeat;
+                    background-position: top center;
+                    background-size: cover;
+                    border: solid 1px #B0BABF;
+                    display: block;
+                    height: inherit;
+                    margin-bottom: 18px;
+                    position: relative;
+
+                    &.tile-small {
+                        height: 180px;
+                    }
+                    &.tile-medium {
+                        height: 378px;
+                    }
+                    &.young-bristol {
+                        background-image: url('../../../public/images/young_bristol_thumb.jpg');
+                    }
+                    &.crimson-pink {
+                        background-image: url('../../../public/images/crimson_pink_thumb.jpg');
+                    }
+                    &.police-statistics {
+                        background-image: url('../../../public/images/police_statistics_thumb.jpg');
+                    }
+                    &.hop-skip-jump {
+                        background-image: url('../../../public/images/hop_skip_jump_thumb.jpg');
+                    }
+                    &.uwe-life {
+                        background-image: url('../../../public/images/uwe_life_thumb.jpg');
+                    }
+                    &.sam-boyd {
+                        background-image: url('../../../public/images/sam_boyd_thumb.jpg');
+                    }
+                    &.discover-crete {
+                        background-image: url('../../../public/images/discover_crete_thumb.jpg');
+                    }
+                    &.twin-towns {
+                        background-image: url('../../../public/images/twin_towns_thumb.jpg');
+                    }
+                    &.web-air {
+                        background-image: url('../../../public/images/webair_thumb.jpg');
+                    }
+                    &.organica {
+                        background-image: url('../../../public/images/organica_thumb.jpg');
+                    }
+                    &.les-lezards {
+                        background-image: url('../../../public/images/les_lezards_thumb.jpg');
+                    }
+                    h3 {
+                        background-color: #ffffff;
+                        border: solid 1px #B0BABF;
+                        border-left-color: #ffffff;
+                        -webkit-border-radius: 0 10px 10px 0;
+                        border-radius: 0 10px 10px 0;
+                        bottom: 20px;
+                        margin: 0 0 0 -1px;
+                        padding: 4px 9px 4px 14px;
+                        position: absolute;
+                    }
+                }
+                header.tile {
+                    border: none;
+
+                    a {
+                        display: inline;
+                    }
+                    h2 {
+                        color: #B0BABF;
+                    }
+                }
+            }
+        }
+    }
+    section.education {
+        background-attachment: fixed;
+        background-color: #85c0ec;
+        background-image: url('../../../public/images/uwe_background.jpg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        min-height: 100%;
+        padding-top: 20px;
+
+        @media screen and (max-device-width: 1024px) {
+            background-attachment: scroll;
+            background-image: url('../../../public/images/uwe_background.jpg'), url('../../../public/images/uwe_background_tile.jpg');
+            background-position: bottom center, top center;
+            background-repeat: no-repeat, repeat-y;
+            -webkit-background-size: auto;
+            -moz-background-size: auto;
+            -o-background-size: auto;
+            background-size: auto;
+        }
+        a[name="education"] {
+            padding-top: 31px;
+        }
+        .container {
+            color: #fff;
+            position: relative;
+
+            aside {
+                position: absolute;
+                right: 0px;
+                top: 20px;
+            }
+            div.thumbnail .caption {
+                padding-top: 0;
+            }
+            div.thumbnail ul {
+                padding-left: 15px;
+            }
+        }
+        div.extra-curricular a {
+            color: #fff;
+            font-weight: bold;
+        }
+        .top-link {
+            clear: both;
+            line-height: 14px;
+            text-align: right;
+            vertical-align: middle;
+
+            a {
+                color: #fff;
+            }
+        }
+    }
+    // section.warcraft {
+    //     background-attachment: fixed;
+    //     background-image: url('../../../public/images/warlords_background.jpg');
+    //     background-position: bottom center;
+    //     background-size: auto;
+    //     background-repeat: no-repeat;
+    //     color: #ffffff;
+    //     min-height: 100%;
+    //     padding-top: 20px;
+    //
+    //     a[name="warcraft"] {
+    //         padding-top: 31px;
+    //     }
+    //     .container {
+    //         background: rgba(51, 51, 51, 0.3);
+    //         border-color: transparent;
+    //         border-radius: 3px;
+    //         -webkit-border-radius: 3px;
+    //         position: relative;
+    //
+    //         h2 {
+    //             float: left;
+    //         }
+    //         aside {
+    //             float: right;
+    //         }
+    //         p.lead {
+    //             clear: left;
+    //         }
+    //         h3 .achievement-points {
+    //             display: inline-block;
+    //             float: right;
+    //             font-weight: normal;
+    //
+    //             .points {
+    //                 color: #ffa400;
+    //             }
+    //         }
+    //         div.arrow {
+    //             color: #fff;
+    //             display: inline-block;
+    //             height: 100%;
+    //             min-height: 119px;
+    //         }
+    //         div.character-tiles {
+    //             a.character {
+    //                 border: solid 1px transparent;
+    //                 border-radius: 3px;
+    //                 -webkit-border-radius: 3px;
+    //                 color: #fff;
+    //                 display: inline-block;
+    //                 float: left;
+    //                 margin: 2px;
+    //                 padding: 5px;
+    //                 text-align: center;
+    //                 white-space: nowrap;
+    //
+    //                 h4 {
+    //                     font-size: 1.0em;
+    //                     text-decoration: none;
+    //                 }
+    //                 &:hover {
+    //                     background: rgba(255, 255, 255, 0.3);
+    //                     border-color: #ffffff;
+    //
+    //                     h4 {
+    //                         text-decoration: none;
+    //                     }
+    //                 }
+    //             }
+    //         }
+    //         .web-projects .tile {
+    //             background-image: url('/images/image_placeholder.jpg');
+    //             background-position: top center;
+    //             background-repeat: no-repeat;
+    //             background-size: cover;
+    //             border: solid 0px transparent;
+    //             box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.3);
+    //             -webkit-box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.3);
+    //             margin-bottom: 18px;
+    //
+    //             &.tile-small {
+    //                 height: 180px;
+    //             }
+    //             &.tile-medium {
+    //                 height: 378px;
+    //             }
+    //             a {
+    //                 display: block;
+    //                 height: inherit;
+    //                 position: relative;
+    //
+    //                 h3 {
+    //                     background-color: rgba(0,0,0,0.2);
+    //                     border: solid 1px transparent;
+    //                     border-radius: 0 10px 10px 0;
+    //                     -webkit-border-radius: 0 10px 10px 0;
+    //                     bottom: 20px;
+    //                     box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.2);
+    //                     -webkit-box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.2);
+    //                     color: #ffffff;
+    //                     margin: 0 0 0 -1px;
+    //                     padding: 4px 9px 4px 14px;
+    //                     position: absolute;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+    footer {
+        background-color: #f0f0f0;
+        padding-top: 20px;
+
+        h3 {
+            margin-top: 0;
+        }
+        p.email {
+            line-height: 14px;
+            padding-left: 18px;
+            vertical-align: middle;
+
+            .social.social-e-mail {
+                margin-left: -18px;
+            }
+        }
+        address {
+            padding-left: 18px;
+            vertical-align: middle;
+
+            .glyphicons.glyphicons-envelope {
+                margin-left: -18px;
+            }
+        }
+    }
+}
