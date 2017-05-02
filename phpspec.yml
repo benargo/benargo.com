@@ -1,5 +1,0 @@
-suites:
-    main:
-        namespace: Portfolio
-        psr4_prefix: Portfolio
-        src_path: app
