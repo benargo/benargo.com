@@ -58,7 +58,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 col-sm-8">
-                    <a href="https://interactiondesign.hobnobs.club" class="tile tile-medium uwe-life">
+                    <a href="https://uwelife.hobnobs.club" class="tile tile-medium uwe-life">
                         <h3 class="title">UWE Life</h3>
                     </a>
                 </div>
